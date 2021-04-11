@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/reg"
+        android:orientation="vertical"
+        tools:context=".Registration">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_span="4"
+                android:text="FARMER DETAILS"
+                android:fontFamily="cursive"
+                android:layout_gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30dp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/im1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_span="4"
+                android:src="@drawable/farmer" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_span="1"
+                android:text="First Name"
+                android:textColor="@color/colorPrimaryDark" />
+
+
+            <EditText
+                android:id="@+id/ed1"
+                android:layout_width="14dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_span="4"
+                android:gravity="center"
+                android:hint="Enter your first name"
+                android:inputType="text" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_span="1"
+                android:text="Last Name"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <EditText
+                android:id="@+id/ed2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="10dp"
+                android:layout_span="4"
+                android:gravity="center"
+                android:hint="Enter your surname"
+                android:inputType="text" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_span="1"
+                android:text="Mobile Number"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <EditText
+                android:id="@+id/ed3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_span="4"
+                android:gravity="center"
+                android:hint="Enter your mobile no."
+                android:inputType="phone" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_span="1"
+                android:text="Local Address"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <EditText
+                android:id="@+id/ed4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="10dp"
+                android:layout_span="4"
+                android:gravity="center"
+                android:hint="Enter your postal address"
+                android:inputType="textPostalAddress" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_span="1"
+                android:text="Username"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <EditText
+                android:id="@+id/ed5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="10dp"
+                android:layout_span="4"
+                android:gravity="center"
+                android:hint="Enter a valid username"
+                android:inputType="text"
+                android:textColor="@color/colorPrimaryDark" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_span="1"
+                android:text="Password"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <EditText
+                android:id="@+id/ed6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="10dp"
+                android:layout_span="4"
+                android:gravity="center"
+                android:hint="Enter a valid password"
+                android:inputType="textPassword"
+                android:textColor="@color/colorPrimaryDark" />
+
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:text="REGISTER" />
+
+            <Button
+                android:id="@+id/clr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="CLEAR" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

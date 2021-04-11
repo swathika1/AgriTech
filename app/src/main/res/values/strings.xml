@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Farmers Friend</string>
+    <string-array name="crop_type">
+        <item>Wheat</item>
+        <item>Maize</item>
+        <item>Millet</item>
+        <item>Sorghum</item>
+        <item>Barley</item>
+        <item>Tomato</item>
+        <item>Potato</item>
+        <item>Vegetables</item>
+        <item>Alfalfa</item>
+        <item>Dates</item>
+        <item>Citrus</item>
+        <item>Grapes</item>
+    </string-array>
+    <string-array name="soil_type">
+        <item>Sandy</item>
+        <item>Clayey</item>
+        <item>Loamy</item>
+    </string-array>
+</resources>

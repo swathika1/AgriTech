@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/agri"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <ImageButton
+        android:id="@+id/b5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#005"
+        android:padding="20dp"
+        android:src="@drawable/farmer" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+               android:text="FARMER LOGIN"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp" />
+    <EditText
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Mobile No."
+        android:textColor="#000000"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Password"
+        android:textColor="#000000"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="LOGIN"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="NEW HERE? REGISTER NOW!"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>
+</ScrollView>

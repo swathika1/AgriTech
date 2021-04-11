@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".FarmerInput">
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="CROP MOISTURE CONTENT"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp" />
+
+
+    </TableRow>
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/im1"
+            android:layout_span="4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="34dp"
+            android:src="@drawable/growth_logo" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:text="Soil Type : "
+            android:textColor="@color/colorPrimaryDark" />
+
+
+        <Spinner
+            android:id="@+id/soil"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="4dp" />
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:text="Crop Type : "
+            android:textColor="@color/colorPrimaryDark" />
+
+
+        <Spinner
+            android:id="@+id/crop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_span="4"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="4dp" />
+
+    </TableRow>
+
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:text="NUTRIENT"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/ed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:hint="Enter nutrient level reading"
+            android:inputType="number" />
+
+
+    </TableRow>
+
+
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:text="OUPUT" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="CLEAR" />
+
+
+    </TableRow>
+
+</TableLayout>
+</ScrollView>
